@@ -2,6 +2,7 @@
 
 import pandas as pd
 import json
+import re
 import matplotlib.pyplot as plt
 import seaborn as sns
 import geopandas as gpd
@@ -182,12 +183,11 @@ mapped_ward_base_rent = {
     "Dandora": 24000,
 }
 
-GEOJSON_URL = (
-    "https://services6.arcgis.com/zOnyumh63cMmLBBH/arcgis/rest/services/"
-    "Nairobi_City_County_Wards/FeatureServer/0/query"
-    "?where=1%3D1&outFields=*&outSR=4326&f=geojson"
+WARD_BOUNDARY_URL = (
+    "https://raw.githubusercontent.com/benaboki/"
+    "Kenya-County-Assembly-Boundaries/master/kenya_county_assemblies.geojson"
 )
-GEOJSON_PATH = Path("data/nairobi_wards.geojson")
+WARD_BOUNDARY_PATH = Path("data/nairobi_wards_85.geojson")
 
 # -------------------------------
 # 3. DATA CLEANING & AGGREGATION
@@ -195,22 +195,55 @@ GEOJSON_PATH = Path("data/nairobi_wards.geojson")
 
 def get_ward_adjustment(ward_name: str) -> float:
     """Return ward rent adjustment factor."""
-    return ward_adjustments.get(ward_name, 1.0)
+    normalized_name = normalize_ward_name(ward_name)
+    return normalized_ward_adjustments.get(normalized_name, 1.0)
 
 
-def ensure_geojson_exists(path: Path = GEOJSON_PATH) -> Path:
-    """Download Nairobi boundaries GeoJSON from ArcGIS if missing."""
+def normalize_ward_name(ward_name: str) -> str:
+    """Normalize ward names for robust joins across data sources."""
+    normalized = str(ward_name).strip().lower().replace("’", "'")
+    if normalized.endswith(" ward"):
+        normalized = normalized[:-5]
+    normalized = re.sub(r"\s+", " ", normalized)
+    return normalized
+
+
+normalized_ward_base_rent = {
+    normalize_ward_name(ward): value for ward, value in ward_base_rent.items()
+}
+
+normalized_mapped_ward_base_rent = {
+    normalize_ward_name(ward): value for ward, value in mapped_ward_base_rent.items()
+}
+
+normalized_ward_adjustments = {
+    normalize_ward_name(ward): value for ward, value in ward_adjustments.items()
+}
+
+
+def get_ward_base_rent(ward_name: str) -> float:
+    """Return one-bedroom baseline for a ward using normalized name matching."""
+    normalized_name = normalize_ward_name(ward_name)
+    if normalized_name in normalized_ward_base_rent:
+        return normalized_ward_base_rent[normalized_name]
+    if normalized_name in normalized_mapped_ward_base_rent:
+        return normalized_mapped_ward_base_rent[normalized_name]
+    return DEFAULT_WARD_BASE_RENT
+
+
+def ensure_geojson_exists(path: Path = WARD_BOUNDARY_PATH) -> Path:
+    """Download Nairobi ward boundaries GeoJSON if missing."""
     if path.exists():
         return path
 
     path.parent.mkdir(parents=True, exist_ok=True)
-    urlretrieve(GEOJSON_URL, path)
+    urlretrieve(WARD_BOUNDARY_URL, path)
     print(f"✅ Downloaded GeoJSON to {path}")
     return path
 
 
-def load_nairobi_geojson(path: Path = GEOJSON_PATH) -> gpd.GeoDataFrame:
-    """Load Nairobi polygons from local GeoJSON."""
+def load_nairobi_geojson(path: Path = WARD_BOUNDARY_PATH) -> gpd.GeoDataFrame:
+    """Load Nairobi ward polygons from local GeoJSON."""
     geojson_file = ensure_geojson_exists(path)
     gdf = gpd.read_file(geojson_file)
     if gdf.crs is None:
@@ -218,10 +251,13 @@ def load_nairobi_geojson(path: Path = GEOJSON_PATH) -> gpd.GeoDataFrame:
     else:
         gdf = gdf.to_crs("EPSG:4326")
 
-    if "NAME_4" not in gdf.columns:
-        raise ValueError("GeoJSON is missing expected 'NAME_4' area name field.")
+    required_columns = {"county", "ward"}
+    if not required_columns.issubset(set(gdf.columns)):
+        raise ValueError("GeoJSON is missing required 'county' and 'ward' fields.")
 
-    gdf["ward"] = gdf["NAME_4"].astype(str).str.strip()
+    gdf = gdf[gdf["county"].astype(str).str.lower() == "nairobi"].copy()
+    gdf["ward"] = gdf["ward"].astype(str).str.strip()
+    gdf = gdf.drop_duplicates(subset=["ward"])
     return gdf
 
 
@@ -229,12 +265,14 @@ def get_all_wards() -> list:
     """Return a sorted unique list of wards defined in the project."""
     return sorted(set(ward_list))
 
-def aggregate_rent_data():
+def aggregate_rent_data(ward_names=None):
     """Build a ward-level dataset categorized by typology."""
     rows = []
 
-    for ward_name in get_all_wards():
-        base_one_bedroom = ward_base_rent.get(ward_name, DEFAULT_WARD_BASE_RENT)
+    wards = sorted(set(ward_names)) if ward_names is not None else get_all_wards()
+
+    for ward_name in wards:
+        base_one_bedroom = get_ward_base_rent(ward_name)
         ward_factor = get_ward_adjustment(ward_name)
 
         for typology, multiplier in typology_multipliers.items():
@@ -256,24 +294,9 @@ def aggregate_rent_data():
 
 
 def aggregate_mapped_ward_rent_data(geo_gdf: gpd.GeoDataFrame) -> pd.DataFrame:
-    """Build typology dataset aligned to available mapped wards in GeoJSON."""
-    rows = []
-    wards = sorted(geo_gdf["ward"].dropna().unique())
-
-    for ward_name in wards:
-        base_one_bedroom = mapped_ward_base_rent.get(ward_name, 34000)
-        for typology, multiplier in typology_multipliers.items():
-            avg_rent = base_one_bedroom * multiplier
-            rows.append(
-                {
-                    "ward": ward_name,
-                    "typology": typology,
-                    "avg_rent_ksh": round(avg_rent, 0),
-                    "median_rent_ksh": round(avg_rent * 0.95, 0),
-                }
-            )
-
-    return pd.DataFrame(rows)
+    """Build typology dataset aligned to ward polygons in GeoJSON."""
+    mapped_wards = sorted(geo_gdf["ward"].dropna().unique())
+    return aggregate_rent_data(mapped_wards)
 
 # -------------------------------
 # 4. VISUALIZATION
@@ -502,9 +525,10 @@ def create_portfolio_plotly_map(geo_gdf: gpd.GeoDataFrame, ward_rent_df: pd.Data
 # -------------------------------
 
 if __name__ == "__main__":
-    df = aggregate_rent_data()
     geo_gdf = load_nairobi_geojson()
-    mapped_ward_df = aggregate_mapped_ward_rent_data(geo_gdf)
+    mapped_ward_names = sorted(geo_gdf["ward"].dropna().unique())
+    df = aggregate_rent_data(mapped_ward_names)
+    mapped_ward_df = df.copy()
     output_dir = Path("outputs")
     output_dir.mkdir(parents=True, exist_ok=True)
     
