@@ -60,7 +60,7 @@ python "nairobi rent analysis.py"
 
 - `outputs/nairobi_ward_typology_rent_summary.csv`
 - `outputs/nairobi_ward_typology_rent_pivot.csv`
-- `outputs/nairobi_geozone_typology_rent_summary.csv`
+- `outputs/nairobi_mapped_ward_typology_rent_summary.csv`
 
 ### Visuals and Interactive Maps
 

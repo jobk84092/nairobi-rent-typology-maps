@@ -12,155 +12,135 @@ from pathlib import Path
 from urllib.request import urlretrieve
 
 # -------------------------------
-# 1. WARD-MAPPING DATA (FROM NAIROBI POSTAL CODES)
+# 1. WARD LIST
 # -------------------------------
 
-ward_mapping = {
-    "Westlands Sub-County": [
-        "Mountain View Ward",
-        "Kangemi Ward",
-        "Karura Ward",
-        "Parklands/Highridge Ward",
-        "Kitisuru Ward"
-    ],
-    "Dagoretti North Sub-County": [
-        "Kabiro Ward",
-        "Kileleshwa Ward",
-        "Gatina Ward",
-        "Kawangware Ward",
-        "Kilimani Ward"
-    ],
-    "Dagoretti South Sub-County": [
-        "Waithaka Ward",
-        "Uthiru/Ruthimitu Ward",
-        "Riruta Ward",
-        "Ngando Ward",
-        "Mutuini Ward"
-    ],
-    "Langata Sub-County": [
-        "Nyayo Highrise Ward",
-        "South C Ward",
-        "Mugumoini Ward",
-        "Nairobi West Ward",
-        "Karen Ward"
-    ],
-    "Kibra Sub-County": [
-        "Sarang’ombe Ward",
-        "Woodley/Kenyatta Golf Course Ward",
-        "Makina Ward",
-        "Lindi Ward",
-        "Laini Saba Ward"
-    ],
-    "Roysambu Sub-County": [
-        "Kahawa Ward",
-        "Roysambu Ward",
-        "Zimmerman Ward",
-        "Kahawa West Ward",
-        "Githurai Ward"
-    ],
-    "Kasarani Sub-County": [
-        "Ruai Ward",
-        "Njiru Ward",
-        "Kasarani Ward",
-        "Mwiki Ward",
-        "Clay City Ward"
-    ],
-    "Ruaraka Sub-County": [
-        "Korogocho Ward",
-        "Lucky Summer Ward",
-        "Mathare North Ward",
-        "Utalii Ward",
-        "Baba Dogo Ward"
-    ],
-    "Embakasi South Sub-County": [
-        "Pipeline Ward",
-        "Kwa Reuben Ward",
-        "Kware Ward",
-        "Imara Daima Ward",
-        "Kwa Njenga Ward"
-    ],
-    "Embakasi North Sub-County": [
-        "Dandora Area IV Ward",
-        "Dandora Area III Ward",
-        "Dandora Area II Ward",
-        "Dandora Area I Ward",
-        "Kariobangi North Ward"
-    ],
-    "Embakasi Central Sub-County": [
-        "Matopeni/Spring Valley Ward",
-        "Komarock Ward",
-        "Kayole South Ward",
-        "Kayole Central Ward",
-        "Kayole North Ward"
-    ],
-    "Embakasi East Sub-County": [
-        "Mihango Ward",
-        "Utawala Ward",
-        "Embaki Ward",
-        "Lower Savannah Ward",
-        "Upper Savannah Ward"
-    ],
-    "Embakasi West Sub-County": [
-        "Kariobangi South Ward",
-        "Mowlem Ward",
-        "Umoja II Ward",
-        "Umoja I Ward"
-    ],
-    "Makadara Sub-County": [
-        "South B Ward",
-        "Makongeni Ward",
-        "Harambee Ward",
-        "Viwandani Ward",
-        "Maringo/Hamza Ward"
-    ],
-    "Kamukunji Sub-County": [
-        "California Ward",
-        "Airbase Ward",
-        "Eastleigh South Ward",
-        "Eastleigh North Ward",
-        "Pumwani Ward"
-    ],
-    "Starehe Sub-County": [
-        "Ziwani/Kariokor Ward",
-        "Landimawe Ward",
-        "Pangani Ward",
-        "Ngara Ward",
-        "Nairobi Central Ward",
-        "Nairobi South Ward"
-    ],
-    "Mathare Sub-County": [
-        "Hospital Ward",
-        "Kiamaiko Ward",
-        "Mlango Kubwa Ward",
-        "Ngei Ward",
-        "Huruma Ward",
-        "Mabatini Ward"
-    ]
-}
+ward_list = [
+    "Mountain View Ward",
+    "Kangemi Ward",
+    "Karura Ward",
+    "Parklands/Highridge Ward",
+    "Kitisuru Ward",
+    "Kabiro Ward",
+    "Kileleshwa Ward",
+    "Gatina Ward",
+    "Kawangware Ward",
+    "Kilimani Ward",
+    "Waithaka Ward",
+    "Uthiru/Ruthimitu Ward",
+    "Riruta Ward",
+    "Ngando Ward",
+    "Mutuini Ward",
+    "Nyayo Highrise Ward",
+    "South C Ward",
+    "Mugumoini Ward",
+    "Nairobi West Ward",
+    "Karen Ward",
+    "Sarang’ombe Ward",
+    "Woodley/Kenyatta Golf Course Ward",
+    "Makina Ward",
+    "Lindi Ward",
+    "Laini Saba Ward",
+    "Kahawa Ward",
+    "Roysambu Ward",
+    "Zimmerman Ward",
+    "Kahawa West Ward",
+    "Githurai Ward",
+    "Ruai Ward",
+    "Njiru Ward",
+    "Kasarani Ward",
+    "Mwiki Ward",
+    "Clay City Ward",
+    "Korogocho Ward",
+    "Lucky Summer Ward",
+    "Mathare North Ward",
+    "Utalii Ward",
+    "Baba Dogo Ward",
+    "Pipeline Ward",
+    "Kwa Reuben Ward",
+    "Kware Ward",
+    "Imara Daima Ward",
+    "Kwa Njenga Ward",
+    "Dandora Area IV Ward",
+    "Dandora Area III Ward",
+    "Dandora Area II Ward",
+    "Dandora Area I Ward",
+    "Kariobangi North Ward",
+    "Matopeni/Spring Valley Ward",
+    "Komarock Ward",
+    "Kayole South Ward",
+    "Kayole Central Ward",
+    "Kayole North Ward",
+    "Mihango Ward",
+    "Utawala Ward",
+    "Embaki Ward",
+    "Lower Savannah Ward",
+    "Upper Savannah Ward",
+    "Kariobangi South Ward",
+    "Mowlem Ward",
+    "Umoja II Ward",
+    "Umoja I Ward",
+    "South B Ward",
+    "Makongeni Ward",
+    "Harambee Ward",
+    "Viwandani Ward",
+    "Maringo/Hamza Ward",
+    "California Ward",
+    "Airbase Ward",
+    "Eastleigh South Ward",
+    "Eastleigh North Ward",
+    "Pumwani Ward",
+    "Ziwani/Kariokor Ward",
+    "Landimawe Ward",
+    "Pangani Ward",
+    "Ngara Ward",
+    "Nairobi Central Ward",
+    "Nairobi South Ward",
+    "Hospital Ward",
+    "Kiamaiko Ward",
+    "Mlango Kubwa Ward",
+    "Ngei Ward",
+    "Huruma Ward",
+    "Mabatini Ward",
+]
 
 # -------------------------------
 # 2. REAL ESTATE DATA (SIMULATED FROM PUBLIC SOURCES)
 # -------------------------------
 
-# Base monthly rent (Ksh) by sub-county for a one-bedroom unit.
-sub_county_base_rent = {
-    "Westlands Sub-County": 55000,
-    "Dagoretti North Sub-County": 48000,
-    "Dagoretti South Sub-County": 32000,
-    "Langata Sub-County": 50000,
-    "Kibra Sub-County": 28000,
-    "Roysambu Sub-County": 30000,
-    "Kasarani Sub-County": 26000,
-    "Ruaraka Sub-County": 28000,
-    "Embakasi South Sub-County": 25000,
-    "Embakasi North Sub-County": 22000,
-    "Embakasi Central Sub-County": 24000,
-    "Embakasi East Sub-County": 26000,
-    "Embakasi West Sub-County": 23000,
-    "Makadara Sub-County": 27000,
-    "Kamukunji Sub-County": 24000,
-    "Starehe Sub-County": 33000,
-    "Mathare Sub-County": 18000,
+# Base monthly rent (Ksh) by ward for a one-bedroom unit.
+# Any ward not listed here uses DEFAULT_WARD_BASE_RENT.
+DEFAULT_WARD_BASE_RENT = 32000
+ward_base_rent = {
+    "Kitisuru Ward": 62000,
+    "Karura Ward": 58000,
+    "Parklands/Highridge Ward": 56000,
+    "Kilimani Ward": 60000,
+    "Kileleshwa Ward": 57000,
+    "Karen Ward": 64000,
+    "Nairobi Central Ward": 52000,
+    "Nairobi South Ward": 45000,
+    "South C Ward": 46000,
+    "Nairobi West Ward": 43000,
+    "Ngara Ward": 44000,
+    "Eastleigh North Ward": 42000,
+    "Eastleigh South Ward": 41000,
+    "Roysambu Ward": 36000,
+    "Zimmerman Ward": 34000,
+    "Kahawa West Ward": 35000,
+    "Kasarani Ward": 33000,
+    "Ruai Ward": 30000,
+    "Njiru Ward": 30000,
+    "Imara Daima Ward": 39000,
+    "Utawala Ward": 34000,
+    "Pipeline Ward": 31000,
+    "South B Ward": 40000,
+    "Mowlem Ward": 30000,
+    "Umoja I Ward": 33000,
+    "Umoja II Ward": 32500,
+    "Mabatini Ward": 22000,
+    "Hospital Ward": 22000,
+    "Korogocho Ward": 23000,
 }
 
 # Simple typology multipliers based on one-bedroom baseline.
@@ -187,7 +167,7 @@ ward_adjustments = {
     "Korogocho Ward": 0.82,
 }
 
-geo_zone_base_rent = {
+mapped_ward_base_rent = {
     "Kilimani": 62000,
     "Parklands": 65000,
     "Karen/Langata": 70000,
@@ -241,50 +221,52 @@ def load_nairobi_geojson(path: Path = GEOJSON_PATH) -> gpd.GeoDataFrame:
     if "NAME_4" not in gdf.columns:
         raise ValueError("GeoJSON is missing expected 'NAME_4' area name field.")
 
-    gdf["geo_zone"] = gdf["NAME_4"].astype(str).str.strip()
+    gdf["ward"] = gdf["NAME_4"].astype(str).str.strip()
     return gdf
+
+
+def get_all_wards() -> list:
+    """Return a sorted unique list of wards defined in the project."""
+    return sorted(set(ward_list))
 
 def aggregate_rent_data():
     """Build a ward-level dataset categorized by typology."""
     rows = []
 
-    for sub_county, wards in ward_mapping.items():
-        base_one_bedroom = sub_county_base_rent.get(sub_county, 25000)
+    for ward_name in get_all_wards():
+        base_one_bedroom = ward_base_rent.get(ward_name, DEFAULT_WARD_BASE_RENT)
+        ward_factor = get_ward_adjustment(ward_name)
 
-        for ward_name in wards:
-            ward_factor = get_ward_adjustment(ward_name)
+        for typology, multiplier in typology_multipliers.items():
+            avg_rent = base_one_bedroom * ward_factor * multiplier
 
-            for typology, multiplier in typology_multipliers.items():
-                avg_rent = base_one_bedroom * ward_factor * multiplier
+            # Keep median slightly below average for a simple, consistent model.
+            median_rent = avg_rent * 0.95
 
-                # Keep median slightly below average for a simple, consistent model.
-                median_rent = avg_rent * 0.95
-
-                rows.append(
-                    {
-                        "sub_county": sub_county,
-                        "ward": ward_name,
-                        "typology": typology,
-                        "avg_rent_ksh": round(avg_rent, 0),
-                        "median_rent_ksh": round(median_rent, 0),
-                    }
-                )
+            rows.append(
+                {
+                    "ward": ward_name,
+                    "typology": typology,
+                    "avg_rent_ksh": round(avg_rent, 0),
+                    "median_rent_ksh": round(median_rent, 0),
+                }
+            )
 
     return pd.DataFrame(rows)
 
 
-def aggregate_geo_zone_rent_data(geo_gdf: gpd.GeoDataFrame) -> pd.DataFrame:
-    """Build typology dataset aligned to available polygon zones in GeoJSON."""
+def aggregate_mapped_ward_rent_data(geo_gdf: gpd.GeoDataFrame) -> pd.DataFrame:
+    """Build typology dataset aligned to available mapped wards in GeoJSON."""
     rows = []
-    zones = sorted(geo_gdf["geo_zone"].dropna().unique())
+    wards = sorted(geo_gdf["ward"].dropna().unique())
 
-    for zone in zones:
-        base_one_bedroom = geo_zone_base_rent.get(zone, 34000)
+    for ward_name in wards:
+        base_one_bedroom = mapped_ward_base_rent.get(ward_name, 34000)
         for typology, multiplier in typology_multipliers.items():
             avg_rent = base_one_bedroom * multiplier
             rows.append(
                 {
-                    "geo_zone": zone,
+                    "ward": ward_name,
                     "typology": typology,
                     "avg_rent_ksh": round(avg_rent, 0),
                     "median_rent_ksh": round(avg_rent * 0.95, 0),
@@ -346,13 +328,13 @@ def plot_ward_rents(df):
     print("✅ Charts saved in outputs/maps/")
 
 
-def create_static_choropleth_map(geo_gdf: gpd.GeoDataFrame, zone_rent_df: pd.DataFrame):
+def create_static_choropleth_map(geo_gdf: gpd.GeoDataFrame, ward_rent_df: pd.DataFrame):
     """Save a static GeoPandas choropleth for two-bedroom rents."""
     output_map_path = Path("outputs/maps/nairobi_choropleth_two_bedroom.png")
     output_map_path.parent.mkdir(parents=True, exist_ok=True)
 
-    two_bed = zone_rent_df[zone_rent_df["typology"] == "two bedroom"]
-    map_df = geo_gdf.merge(two_bed, on="geo_zone", how="left")
+    two_bed = ward_rent_df[ward_rent_df["typology"] == "two bedroom"]
+    map_df = geo_gdf.merge(two_bed, on="ward", how="left")
 
     fig, ax = plt.subplots(figsize=(12, 12))
     map_df.plot(
@@ -364,7 +346,7 @@ def create_static_choropleth_map(geo_gdf: gpd.GeoDataFrame, zone_rent_df: pd.Dat
         missing_kwds={"color": "lightgrey", "label": "No data"},
         ax=ax,
     )
-    ax.set_title("Nairobi Average Two-Bedroom Rent (Ksh) by Zone", fontsize=14)
+    ax.set_title("Nairobi Average Two-Bedroom Rent (Ksh) by Ward", fontsize=14)
     ax.set_axis_off()
     plt.tight_layout()
     plt.savefig(output_map_path, dpi=300)
@@ -372,7 +354,7 @@ def create_static_choropleth_map(geo_gdf: gpd.GeoDataFrame, zone_rent_df: pd.Dat
     print("✅ Static choropleth saved to outputs/maps/nairobi_choropleth_two_bedroom.png")
 
 
-def create_interactive_typology_map(geo_gdf: gpd.GeoDataFrame, zone_rent_df: pd.DataFrame):
+def create_interactive_typology_map(geo_gdf: gpd.GeoDataFrame, ward_rent_df: pd.DataFrame):
     """Save interactive Folium choropleth map with typology layer toggles."""
     output_html_path = Path("outputs/maps/nairobi_typology_interactive_map.html")
     output_html_path.parent.mkdir(parents=True, exist_ok=True)
@@ -383,13 +365,13 @@ def create_interactive_typology_map(geo_gdf: gpd.GeoDataFrame, zone_rent_df: pd.
     fmap = folium.Map(location=[center_lat, center_lon], zoom_start=11, tiles="CartoDB positron")
 
     for idx, typology in enumerate(typology_multipliers.keys()):
-        layer_data = zone_rent_df[zone_rent_df["typology"] == typology]
+        layer_data = ward_rent_df[ward_rent_df["typology"] == typology]
         if layer_data.empty:
             continue
 
         layer_gdf = geo_gdf.merge(
-            layer_data[["geo_zone", "avg_rent_ksh"]],
-            on="geo_zone",
+            layer_data[["ward", "avg_rent_ksh"]],
+            on="ward",
             how="left",
         )
         min_val = layer_gdf["avg_rent_ksh"].min()
@@ -412,15 +394,15 @@ def create_interactive_typology_map(geo_gdf: gpd.GeoDataFrame, zone_rent_df: pd.
             data=layer_gdf.to_json(),
             style_function=style_function,
             tooltip=folium.GeoJsonTooltip(
-                fields=["geo_zone", "avg_rent_ksh"],
-                aliases=["Zone:", "Average rent (Ksh):"],
+                fields=["ward", "avg_rent_ksh"],
+                aliases=["Ward:", "Average rent (Ksh):"],
                 labels=True,
                 sticky=True,
                 localize=True,
             ),
             popup=folium.GeoJsonPopup(
-                fields=["geo_zone", "avg_rent_ksh"],
-                aliases=["Zone:", "Average rent (Ksh):"],
+                fields=["ward", "avg_rent_ksh"],
+                aliases=["Ward:", "Average rent (Ksh):"],
                 labels=True,
                 localize=True,
             ),
@@ -434,12 +416,12 @@ def create_interactive_typology_map(geo_gdf: gpd.GeoDataFrame, zone_rent_df: pd.
     print("✅ Interactive map saved to outputs/maps/nairobi_typology_interactive_map.html")
 
 
-def create_portfolio_plotly_map(geo_gdf: gpd.GeoDataFrame, zone_rent_df: pd.DataFrame):
+def create_portfolio_plotly_map(geo_gdf: gpd.GeoDataFrame, ward_rent_df: pd.DataFrame):
     """Save a polished interactive Plotly map with typology dropdown."""
     output_html_path = Path("outputs/maps/nairobi_typology_portfolio_map.html")
     output_html_path.parent.mkdir(parents=True, exist_ok=True)
 
-    geojson_data = geo_gdf[["geo_zone", "geometry"]].to_json()
+    geojson_data = geo_gdf[["ward", "geometry"]].to_json()
     geojson_obj = json.loads(geojson_data)
 
     bounds = geo_gdf.total_bounds
@@ -450,14 +432,14 @@ def create_portfolio_plotly_map(geo_gdf: gpd.GeoDataFrame, zone_rent_df: pd.Data
     typologies = list(typology_multipliers.keys())
 
     for i, typology in enumerate(typologies):
-        df_t = zone_rent_df[zone_rent_df["typology"] == typology]
+        df_t = ward_rent_df[ward_rent_df["typology"] == typology]
 
         fig.add_trace(
             go.Choroplethmap(
                 geojson=geojson_obj,
-                locations=df_t["geo_zone"],
+                locations=df_t["ward"],
                 z=df_t["avg_rent_ksh"],
-                featureidkey="properties.geo_zone",
+                featureidkey="properties.ward",
                 colorscale="YlOrRd",
                 marker_opacity=0.75,
                 marker_line_width=0.8,
@@ -522,7 +504,7 @@ def create_portfolio_plotly_map(geo_gdf: gpd.GeoDataFrame, zone_rent_df: pd.Data
 if __name__ == "__main__":
     df = aggregate_rent_data()
     geo_gdf = load_nairobi_geojson()
-    zone_df = aggregate_geo_zone_rent_data(geo_gdf)
+    mapped_ward_df = aggregate_mapped_ward_rent_data(geo_gdf)
     output_dir = Path("outputs")
     output_dir.mkdir(parents=True, exist_ok=True)
     
@@ -532,7 +514,7 @@ if __name__ == "__main__":
 
     # Save a simple pivoted table too (one row per ward, typologies as columns)
     pivot_df = df.pivot_table(
-        index=["sub_county", "ward"],
+        index=["ward"],
         columns="typology",
         values="avg_rent_ksh",
         aggfunc="mean",
@@ -540,14 +522,14 @@ if __name__ == "__main__":
     pivot_df.to_csv(output_dir / "nairobi_ward_typology_rent_pivot.csv", index=False)
     print("✅ Pivot summary saved to outputs/nairobi_ward_typology_rent_pivot.csv")
 
-    zone_df.to_csv(output_dir / "nairobi_geozone_typology_rent_summary.csv", index=False)
-    print("✅ Geo-zone + typology summary saved to outputs/nairobi_geozone_typology_rent_summary.csv")
+    mapped_ward_df.to_csv(output_dir / "nairobi_mapped_ward_typology_rent_summary.csv", index=False)
+    print("✅ Mapped-ward + typology summary saved to outputs/nairobi_mapped_ward_typology_rent_summary.csv")
     
     # Plot results
     plot_ward_rents(df)
-    create_static_choropleth_map(geo_gdf, zone_df)
-    create_interactive_typology_map(geo_gdf, zone_df)
-    create_portfolio_plotly_map(geo_gdf, zone_df)
+    create_static_choropleth_map(geo_gdf, mapped_ward_df)
+    create_interactive_typology_map(geo_gdf, mapped_ward_df)
+    create_portfolio_plotly_map(geo_gdf, mapped_ward_df)
 
     print("\n🎉 Project completed! You now have:")
     print("- A detailed CSV of ward-level rents by typology")
