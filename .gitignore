@@ -1,0 +1,11 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+# Large/raw working files
+project plan.rtf
+sources of data.xlsx
+
+# Optional local artifacts
+*.log
