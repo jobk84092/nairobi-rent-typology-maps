@@ -1,19 +1,35 @@
 # Nairobi Rent Typology Mapping
 
+![Project Banner](assets/banner.svg)
+
 Interactive and static rent analytics for Nairobi using typology-based pricing and geospatial visualization.
+
+## Live Demo
+
+- GitHub Pages site: https://jobk84092.github.io/nairobi-rent-typology-maps/
+- Local landing page: [index.html](index.html)
+- Portfolio interactive map: [outputs/maps/nairobi_typology_portfolio_map.html](outputs/maps/nairobi_typology_portfolio_map.html)
 
 ## What This Project Shows
 
-- Rent estimates by typology:
-  - studio
-  - one bedroom
-  - two bedroom
-  - three bedroom
-  - townhouse
-  - bungalow
+- Rent estimates by typology: studio, one bedroom, two bedroom, three bedroom, townhouse, bungalow.
 - Ward-level tabular analytics for broad Nairobi coverage.
 - Geo-enabled zone mapping from ArcGIS boundaries.
-- Portfolio-grade interactive maps (Folium + Plotly).
+- Portfolio-grade interactive maps built with Folium and Plotly.
+
+## Visual Highlights
+
+### Static Choropleth
+
+![Nairobi Two Bedroom Choropleth](outputs/maps/nairobi_choropleth_two_bedroom.png)
+
+### Typology Summary
+
+![Average Rent by Typology](outputs/maps/average_rent_by_typology.png)
+
+### Top Two-Bedroom Areas
+
+![Top Wards Two Bedroom Rent](outputs/maps/top_wards_two_bedroom_rent.png)
 
 ## Data Inputs
 
@@ -34,6 +50,10 @@ pip install -r requirements.txt
 python "nairobi rent analysis.py"
 ```
 
+## Methodology Notebook
+
+- Short walkthrough notebook: [methodology_walkthrough.ipynb](methodology_walkthrough.ipynb)
+
 ## Generated Outputs
 
 ### Tables
@@ -42,7 +62,7 @@ python "nairobi rent analysis.py"
 - `outputs/nairobi_ward_typology_rent_pivot.csv`
 - `outputs/nairobi_geozone_typology_rent_summary.csv`
 
-### Visuals
+### Visuals and Interactive Maps
 
 - `outputs/maps/top_wards_two_bedroom_rent.png`
 - `outputs/maps/average_rent_by_typology.png`

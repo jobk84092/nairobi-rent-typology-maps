@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nairobi Rent Typology Mapping</title>
+  <meta name="description" content="Interactive Nairobi rent typology maps with geospatial analytics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f8f7f2;
+      --ink: #14213d;
+      --ink-soft: #2f3f5f;
+      --brand: #fca311;
+      --surface: #ffffff;
+      --border: #d9e0ea;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 15% 10%, rgba(252, 163, 17, 0.22), transparent 35%),
+        radial-gradient(circle at 80% 12%, rgba(65, 90, 119, 0.2), transparent 28%),
+        var(--bg);
+      color: var(--ink);
+      font-family: "Space Grotesk", "Trebuchet MS", sans-serif;
+      line-height: 1.55;
+    }
+
+    .shell {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 28px 20px 64px;
+    }
+
+    .hero {
+      background: linear-gradient(130deg, #0d1b2a 0%, #1b263b 60%, #415a77 100%);
+      color: #f6f7fb;
+      border-radius: 20px;
+      padding: 30px 26px;
+      box-shadow: 0 18px 40px rgba(20, 33, 61, 0.22);
+    }
+
+    .hero h1 {
+      margin: 0 0 10px;
+      font-family: "DM Serif Display", Georgia, serif;
+      font-size: clamp(2rem, 4vw, 3.3rem);
+      font-weight: 400;
+    }
+
+    .hero p { margin: 0; color: #dde8f6; max-width: 780px; }
+
+    .actions {
+      margin-top: 18px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 11px 16px;
+      border-radius: 12px;
+      font-weight: 700;
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .btn.primary {
+      background: var(--brand);
+      color: #09101b;
+      box-shadow: 0 10px 20px rgba(252, 163, 17, 0.35);
+    }
+
+    .btn.secondary {
+      background: rgba(255, 255, 255, 0.12);
+      color: #f3f6ff;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+    }
+
+    .btn:hover { transform: translateY(-2px); }
+
+    .grid {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      box-shadow: 0 10px 24px rgba(21, 31, 49, 0.06);
+    }
+
+    .card h3 {
+      margin: 2px 0 8px;
+      font-size: 1.02rem;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--ink-soft);
+      font-size: 0.95rem;
+    }
+
+    .map-wrap {
+      margin-top: 26px;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 14px 30px rgba(23, 35, 54, 0.12);
+      animation: reveal 0.8s ease both;
+    }
+
+    .map-head {
+      padding: 14px 16px;
+      background: linear-gradient(90deg, #f1f5fb, #fff8e7);
+      border-bottom: 1px solid var(--border);
+      font-weight: 700;
+    }
+
+    iframe {
+      width: 100%;
+      min-height: 76vh;
+      border: 0;
+      display: block;
+    }
+
+    @keyframes reveal {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 760px) {
+      .hero { padding: 22px 18px; }
+      .map-head { font-size: 0.94rem; }
+      iframe { min-height: 66vh; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <h1>Nairobi Rent Typology Mapping</h1>
+      <p>
+        Explore Nairobi rent patterns from studio to bungalow through a geospatial portfolio project built with Python,
+        GeoPandas, Folium, and Plotly.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="outputs/maps/nairobi_typology_portfolio_map.html">Open Full Interactive Map</a>
+        <a class="btn secondary" href="README.md">Read Project Guide</a>
+      </div>
+    </section>
+
+    <section class="grid" aria-label="highlights">
+      <article class="card">
+        <h3>6 Typologies</h3>
+        <p>Studio, one bedroom, two bedroom, three bedroom, townhouse, and bungalow.</p>
+      </article>
+      <article class="card">
+        <h3>GeoJSON Boundaries</h3>
+        <p>ArcGIS Nairobi layer auto-downloaded and joined to modeled rent metrics.</p>
+      </article>
+      <article class="card">
+        <h3>Portfolio Output</h3>
+        <p>Static choropleths, interactive map layers, and reproducible CSV exports.</p>
+      </article>
+    </section>
+
+    <section class="map-wrap">
+      <div class="map-head">Interactive Preview</div>
+      <iframe src="outputs/maps/nairobi_typology_portfolio_map.html" title="Nairobi Typology Portfolio Map"></iframe>
+    </section>
+  </main>
+</body>
+</html>

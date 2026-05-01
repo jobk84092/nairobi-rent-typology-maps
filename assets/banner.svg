@@ -1,0 +1,35 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1B2A"/>
+      <stop offset="55%" stop-color="#1B263B"/>
+      <stop offset="100%" stop-color="#415A77"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCA311"/>
+      <stop offset="100%" stop-color="#FFB703"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="520" fill="url(#bg)"/>
+  <circle cx="1260" cy="130" r="280" fill="#778DA9" fill-opacity="0.15"/>
+  <circle cx="180" cy="460" r="260" fill="#FCA311" fill-opacity="0.1"/>
+
+  <path d="M0 390C180 360 260 440 430 420C600 400 690 300 860 320C1030 340 1180 460 1360 430C1490 410 1560 350 1600 330V520H0V390Z" fill="#0A1420" fill-opacity="0.55"/>
+
+  <text x="84" y="170" fill="white" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="700" letter-spacing="0.5">
+    Nairobi Rent Typology Mapping
+  </text>
+  <text x="84" y="232" fill="#DCE6F2" font-family="'Trebuchet MS', Helvetica, sans-serif" font-size="34" font-weight="500">
+    Geospatial Analytics • Interactive Choropleths • Portfolio Project
+  </text>
+
+  <rect x="84" y="282" width="470" height="78" rx="16" fill="url(#accent)"/>
+  <text x="116" y="332" fill="#101820" font-family="'Trebuchet MS', Helvetica, sans-serif" font-size="34" font-weight="700">
+    Studio to Bungalow Insights
+  </text>
+
+  <text x="84" y="458" fill="#B7C5D6" font-family="'Trebuchet MS', Helvetica, sans-serif" font-size="26" font-weight="500">
+    Source: ArcGIS Nairobi boundary layer + typology-driven rent model
+  </text>
+</svg>
