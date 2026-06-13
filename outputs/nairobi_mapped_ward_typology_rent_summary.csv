@@ -1,511 +1,511 @@
 ward,typology,avg_rent_ksh,median_rent_ksh
-Airbase,studio,30000.0,28500.0
-Airbase,one bedroom,40000.0,38000.0
-Airbase,two bedroom,58000.0,55100.0
-Airbase,three bedroom,84000.0,79800.0
-Airbase,townhouse,128000.0,121600.0
-Airbase,bungalow,152000.0,144400.0
-Babadogo,studio,13500.0,12825.0
-Babadogo,one bedroom,18000.0,17100.0
-Babadogo,two bedroom,26100.0,24795.0
-Babadogo,three bedroom,37800.0,35910.0
-Babadogo,townhouse,57600.0,54720.0
-Babadogo,bungalow,68400.0,64980.0
-California,studio,29250.0,27788.0
-California,one bedroom,39000.0,37050.0
-California,two bedroom,56550.0,53722.0
-California,three bedroom,81900.0,77805.0
-California,townhouse,124800.0,118560.0
-California,bungalow,148200.0,140790.0
-Claycity,studio,19500.0,18525.0
-Claycity,one bedroom,26000.0,24700.0
-Claycity,two bedroom,37700.0,35815.0
-Claycity,three bedroom,54600.0,51870.0
-Claycity,townhouse,83200.0,79040.0
-Claycity,bungalow,98800.0,93860.0
-Dandora Area I,studio,17250.0,16388.0
-Dandora Area I,one bedroom,23000.0,21850.0
-Dandora Area I,two bedroom,33350.0,31682.0
-Dandora Area I,three bedroom,48300.0,45885.0
-Dandora Area I,townhouse,73600.0,69920.0
-Dandora Area I,bungalow,87400.0,83030.0
-Dandora Area Ii,studio,17250.0,16388.0
-Dandora Area Ii,one bedroom,23000.0,21850.0
-Dandora Area Ii,two bedroom,33350.0,31682.0
-Dandora Area Ii,three bedroom,48300.0,45885.0
-Dandora Area Ii,townhouse,73600.0,69920.0
-Dandora Area Ii,bungalow,87400.0,83030.0
-Dandora Area Iii,studio,17250.0,16388.0
-Dandora Area Iii,one bedroom,23000.0,21850.0
-Dandora Area Iii,two bedroom,33350.0,31682.0
-Dandora Area Iii,three bedroom,48300.0,45885.0
-Dandora Area Iii,townhouse,73600.0,69920.0
-Dandora Area Iii,bungalow,87400.0,83030.0
-Dandora Area Iv,studio,16500.0,15675.0
-Dandora Area Iv,one bedroom,22000.0,20900.0
-Dandora Area Iv,two bedroom,31900.0,30305.0
-Dandora Area Iv,three bedroom,46200.0,43890.0
-Dandora Area Iv,townhouse,70400.0,66880.0
-Dandora Area Iv,bungalow,83600.0,79420.0
-Eastleigh North,studio,30750.0,29212.0
-Eastleigh North,one bedroom,41000.0,38950.0
-Eastleigh North,two bedroom,59450.0,56478.0
-Eastleigh North,three bedroom,86100.0,81795.0
-Eastleigh North,townhouse,131200.0,124640.0
-Eastleigh North,bungalow,155800.0,148010.0
-Eastleigh South,studio,30000.0,28500.0
-Eastleigh South,one bedroom,40000.0,38000.0
-Eastleigh South,two bedroom,58000.0,55100.0
-Eastleigh South,three bedroom,84000.0,79800.0
-Eastleigh South,townhouse,128000.0,121600.0
-Eastleigh South,bungalow,152000.0,144400.0
-Embakasi,studio,20250.0,19238.0
-Embakasi,one bedroom,27000.0,25650.0
-Embakasi,two bedroom,39150.0,37192.0
-Embakasi,three bedroom,56700.0,53865.0
-Embakasi,townhouse,86400.0,82080.0
-Embakasi,bungalow,102600.0,97470.0
-Gatina,studio,14250.0,13538.0
-Gatina,one bedroom,19000.0,18050.0
-Gatina,two bedroom,27550.0,26172.0
-Gatina,three bedroom,39900.0,37905.0
-Gatina,townhouse,60800.0,57760.0
-Gatina,bungalow,72200.0,68590.0
-Githurai,studio,21000.0,19950.0
-Githurai,one bedroom,28000.0,26600.0
-Githurai,two bedroom,40600.0,38570.0
-Githurai,three bedroom,58800.0,55860.0
-Githurai,townhouse,89600.0,85120.0
-Githurai,bungalow,106400.0,101080.0
-Harambee,studio,30750.0,29212.0
-Harambee,one bedroom,41000.0,38950.0
-Harambee,two bedroom,59450.0,56478.0
-Harambee,three bedroom,86100.0,81795.0
-Harambee,townhouse,131200.0,124640.0
-Harambee,bungalow,155800.0,148010.0
-Hospital,studio,12750.0,12112.0
-Hospital,one bedroom,17000.0,16150.0
-Hospital,two bedroom,24650.0,23418.0
-Hospital,three bedroom,35700.0,33915.0
-Hospital,townhouse,54400.0,51680.0
-Hospital,bungalow,64600.0,61370.0
-Huruma,studio,15750.0,14962.0
-Huruma,one bedroom,21000.0,19950.0
-Huruma,two bedroom,30450.0,28928.0
-Huruma,three bedroom,44100.0,41895.0
-Huruma,townhouse,67200.0,63840.0
-Huruma,bungalow,79800.0,75810.0
-Imara Daima,studio,28500.0,27075.0
-Imara Daima,one bedroom,38000.0,36100.0
-Imara Daima,two bedroom,55100.0,52345.0
-Imara Daima,three bedroom,79800.0,75810.0
-Imara Daima,townhouse,121600.0,115520.0
-Imara Daima,bungalow,144400.0,137180.0
-Kabiro,studio,13500.0,12825.0
-Kabiro,one bedroom,18000.0,17100.0
-Kabiro,two bedroom,26100.0,24795.0
-Kabiro,three bedroom,37800.0,35910.0
-Kabiro,townhouse,57600.0,54720.0
-Kabiro,bungalow,68400.0,64980.0
-Kahawa,studio,24000.0,22800.0
-Kahawa,one bedroom,32000.0,30400.0
-Kahawa,two bedroom,46400.0,44080.0
-Kahawa,three bedroom,67200.0,63840.0
-Kahawa,townhouse,102400.0,97280.0
-Kahawa,bungalow,121600.0,115520.0
-Kahawa West,studio,25500.0,24225.0
-Kahawa West,one bedroom,34000.0,32300.0
-Kahawa West,two bedroom,49300.0,46835.0
-Kahawa West,three bedroom,71400.0,67830.0
-Kahawa West,townhouse,108800.0,103360.0
-Kahawa West,bungalow,129200.0,122740.0
-Kangemi,studio,27000.0,25650.0
-Kangemi,one bedroom,36000.0,34200.0
-Kangemi,two bedroom,52200.0,49590.0
-Kangemi,three bedroom,75600.0,71820.0
-Kangemi,townhouse,115200.0,109440.0
-Kangemi,bungalow,136800.0,129960.0
-Karen,studio,55125.0,52369.0
-Karen,one bedroom,73500.0,69825.0
-Karen,two bedroom,106575.0,101246.0
-Karen,three bedroom,154350.0,146632.0
-Karen,townhouse,235200.0,223440.0
-Karen,bungalow,279300.0,265335.0
-Kariobangi North,studio,21750.0,20662.0
-Kariobangi North,one bedroom,29000.0,27550.0
-Kariobangi North,two bedroom,42050.0,39948.0
-Kariobangi North,three bedroom,60900.0,57855.0
-Kariobangi North,townhouse,92800.0,88160.0
-Kariobangi North,bungalow,110200.0,104690.0
-Kariobangi South,studio,21750.0,20662.0
-Kariobangi South,one bedroom,29000.0,27550.0
-Kariobangi South,two bedroom,42050.0,39948.0
-Kariobangi South,three bedroom,60900.0,57855.0
-Kariobangi South,townhouse,92800.0,88160.0
-Kariobangi South,bungalow,110200.0,104690.0
-Karura,studio,43500.0,41325.0
-Karura,one bedroom,58000.0,55100.0
-Karura,two bedroom,84100.0,79895.0
-Karura,three bedroom,121800.0,115710.0
-Karura,townhouse,185600.0,176320.0
-Karura,bungalow,220400.0,209380.0
-Kasarani,studio,25500.0,24225.0
-Kasarani,one bedroom,34000.0,32300.0
-Kasarani,two bedroom,49300.0,46835.0
-Kasarani,three bedroom,71400.0,67830.0
-Kasarani,townhouse,108800.0,103360.0
-Kasarani,bungalow,129200.0,122740.0
-Kawangware,studio,15000.0,14250.0
-Kawangware,one bedroom,20000.0,19000.0
-Kawangware,two bedroom,29000.0,27550.0
-Kawangware,three bedroom,42000.0,39900.0
-Kawangware,townhouse,64000.0,60800.0
-Kawangware,bungalow,76000.0,72200.0
-Kayole Central,studio,20250.0,19238.0
-Kayole Central,one bedroom,27000.0,25650.0
-Kayole Central,two bedroom,39150.0,37192.0
-Kayole Central,three bedroom,56700.0,53865.0
-Kayole Central,townhouse,86400.0,82080.0
-Kayole Central,bungalow,102600.0,97470.0
-Kayole North,studio,20250.0,19238.0
-Kayole North,one bedroom,27000.0,25650.0
-Kayole North,two bedroom,39150.0,37192.0
-Kayole North,three bedroom,56700.0,53865.0
-Kayole North,townhouse,86400.0,82080.0
-Kayole North,bungalow,102600.0,97470.0
-Kayole South,studio,20250.0,19238.0
-Kayole South,one bedroom,27000.0,25650.0
-Kayole South,two bedroom,39150.0,37192.0
-Kayole South,three bedroom,56700.0,53865.0
-Kayole South,townhouse,86400.0,82080.0
-Kayole South,bungalow,102600.0,97470.0
-Kiamaiko,studio,15000.0,14250.0
-Kiamaiko,one bedroom,20000.0,19000.0
-Kiamaiko,two bedroom,29000.0,27550.0
-Kiamaiko,three bedroom,42000.0,39900.0
-Kiamaiko,townhouse,64000.0,60800.0
-Kiamaiko,bungalow,76000.0,72200.0
+Airbase,studio,11250.0,10688.0
+Airbase,one bedroom,15000.0,14250.0
+Airbase,two bedroom,21750.0,20662.0
+Airbase,three bedroom,31500.0,29925.0
+Airbase,townhouse,48000.0,45600.0
+Airbase,bungalow,57000.0,54150.0
+Babadogo,studio,5250.0,4988.0
+Babadogo,one bedroom,7000.0,6650.0
+Babadogo,two bedroom,10150.0,9642.0
+Babadogo,three bedroom,14700.0,13965.0
+Babadogo,townhouse,22400.0,21280.0
+Babadogo,bungalow,26600.0,25270.0
+California,studio,12000.0,11400.0
+California,one bedroom,16000.0,15200.0
+California,two bedroom,23200.0,22040.0
+California,three bedroom,33600.0,31920.0
+California,townhouse,51200.0,48640.0
+California,bungalow,60800.0,57760.0
+Claycity,studio,6750.0,6412.0
+Claycity,one bedroom,9000.0,8550.0
+Claycity,two bedroom,13050.0,12398.0
+Claycity,three bedroom,18900.0,17955.0
+Claycity,townhouse,28800.0,27360.0
+Claycity,bungalow,34200.0,32490.0
+Dandora Area I,studio,6000.0,5700.0
+Dandora Area I,one bedroom,8000.0,7600.0
+Dandora Area I,two bedroom,11600.0,11020.0
+Dandora Area I,three bedroom,16800.0,15960.0
+Dandora Area I,townhouse,25600.0,24320.0
+Dandora Area I,bungalow,30400.0,28880.0
+Dandora Area Ii,studio,6000.0,5700.0
+Dandora Area Ii,one bedroom,8000.0,7600.0
+Dandora Area Ii,two bedroom,11600.0,11020.0
+Dandora Area Ii,three bedroom,16800.0,15960.0
+Dandora Area Ii,townhouse,25600.0,24320.0
+Dandora Area Ii,bungalow,30400.0,28880.0
+Dandora Area Iii,studio,5625.0,5344.0
+Dandora Area Iii,one bedroom,7500.0,7125.0
+Dandora Area Iii,two bedroom,10875.0,10331.0
+Dandora Area Iii,three bedroom,15750.0,14962.0
+Dandora Area Iii,townhouse,24000.0,22800.0
+Dandora Area Iii,bungalow,28500.0,27075.0
+Dandora Area Iv,studio,5250.0,4988.0
+Dandora Area Iv,one bedroom,7000.0,6650.0
+Dandora Area Iv,two bedroom,10150.0,9642.0
+Dandora Area Iv,three bedroom,14700.0,13965.0
+Dandora Area Iv,townhouse,22400.0,21280.0
+Dandora Area Iv,bungalow,26600.0,25270.0
+Eastleigh North,studio,11250.0,10688.0
+Eastleigh North,one bedroom,15000.0,14250.0
+Eastleigh North,two bedroom,21750.0,20662.0
+Eastleigh North,three bedroom,31500.0,29925.0
+Eastleigh North,townhouse,48000.0,45600.0
+Eastleigh North,bungalow,57000.0,54150.0
+Eastleigh South,studio,10500.0,9975.0
+Eastleigh South,one bedroom,14000.0,13300.0
+Eastleigh South,two bedroom,20300.0,19285.0
+Eastleigh South,three bedroom,29400.0,27930.0
+Eastleigh South,townhouse,44800.0,42560.0
+Eastleigh South,bungalow,53200.0,50540.0
+Embakasi,studio,7500.0,7125.0
+Embakasi,one bedroom,10000.0,9500.0
+Embakasi,two bedroom,14500.0,13775.0
+Embakasi,three bedroom,21000.0,19950.0
+Embakasi,townhouse,32000.0,30400.0
+Embakasi,bungalow,38000.0,36100.0
+Gatina,studio,5250.0,4988.0
+Gatina,one bedroom,7000.0,6650.0
+Gatina,two bedroom,10150.0,9642.0
+Gatina,three bedroom,14700.0,13965.0
+Gatina,townhouse,22400.0,21280.0
+Gatina,bungalow,26600.0,25270.0
+Githurai,studio,9000.0,8550.0
+Githurai,one bedroom,12000.0,11400.0
+Githurai,two bedroom,17400.0,16530.0
+Githurai,three bedroom,25200.0,23940.0
+Githurai,townhouse,38400.0,36480.0
+Githurai,bungalow,45600.0,43320.0
+Harambee,studio,13500.0,12825.0
+Harambee,one bedroom,18000.0,17100.0
+Harambee,two bedroom,26100.0,24795.0
+Harambee,three bedroom,37800.0,35910.0
+Harambee,townhouse,57600.0,54720.0
+Harambee,bungalow,68400.0,64980.0
+Hospital,studio,3750.0,3562.0
+Hospital,one bedroom,5000.0,4750.0
+Hospital,two bedroom,7250.0,6888.0
+Hospital,three bedroom,10500.0,9975.0
+Hospital,townhouse,16000.0,15200.0
+Hospital,bungalow,19000.0,18050.0
+Huruma,studio,4875.0,4631.0
+Huruma,one bedroom,6500.0,6175.0
+Huruma,two bedroom,9425.0,8954.0
+Huruma,three bedroom,13650.0,12968.0
+Huruma,townhouse,20800.0,19760.0
+Huruma,bungalow,24700.0,23465.0
+Imara Daima,studio,13500.0,12825.0
+Imara Daima,one bedroom,18000.0,17100.0
+Imara Daima,two bedroom,26100.0,24795.0
+Imara Daima,three bedroom,37800.0,35910.0
+Imara Daima,townhouse,57600.0,54720.0
+Imara Daima,bungalow,68400.0,64980.0
+Kabiro,studio,5250.0,4988.0
+Kabiro,one bedroom,7000.0,6650.0
+Kabiro,two bedroom,10150.0,9642.0
+Kabiro,three bedroom,14700.0,13965.0
+Kabiro,townhouse,22400.0,21280.0
+Kabiro,bungalow,26600.0,25270.0
+Kahawa,studio,8250.0,7838.0
+Kahawa,one bedroom,11000.0,10450.0
+Kahawa,two bedroom,15950.0,15152.0
+Kahawa,three bedroom,23100.0,21945.0
+Kahawa,townhouse,35200.0,33440.0
+Kahawa,bungalow,41800.0,39710.0
+Kahawa West,studio,9750.0,9262.0
+Kahawa West,one bedroom,13000.0,12350.0
+Kahawa West,two bedroom,18850.0,17908.0
+Kahawa West,three bedroom,27300.0,25935.0
+Kahawa West,townhouse,41600.0,39520.0
+Kahawa West,bungalow,49400.0,46930.0
+Kangemi,studio,9000.0,8550.0
+Kangemi,one bedroom,12000.0,11400.0
+Kangemi,two bedroom,17400.0,16530.0
+Kangemi,three bedroom,25200.0,23940.0
+Kangemi,townhouse,38400.0,36480.0
+Kangemi,bungalow,45600.0,43320.0
+Karen,studio,59062.0,56109.0
+Karen,one bedroom,78750.0,74812.0
+Karen,two bedroom,114188.0,108478.0
+Karen,three bedroom,165375.0,157106.0
+Karen,townhouse,252000.0,239400.0
+Karen,bungalow,299250.0,284288.0
+Kariobangi North,studio,7500.0,7125.0
+Kariobangi North,one bedroom,10000.0,9500.0
+Kariobangi North,two bedroom,14500.0,13775.0
+Kariobangi North,three bedroom,21000.0,19950.0
+Kariobangi North,townhouse,32000.0,30400.0
+Kariobangi North,bungalow,38000.0,36100.0
+Kariobangi South,studio,7500.0,7125.0
+Kariobangi South,one bedroom,10000.0,9500.0
+Kariobangi South,two bedroom,14500.0,13775.0
+Kariobangi South,three bedroom,21000.0,19950.0
+Kariobangi South,townhouse,32000.0,30400.0
+Kariobangi South,bungalow,38000.0,36100.0
+Karura,studio,41250.0,39188.0
+Karura,one bedroom,55000.0,52250.0
+Karura,two bedroom,79750.0,75762.0
+Karura,three bedroom,115500.0,109725.0
+Karura,townhouse,176000.0,167200.0
+Karura,bungalow,209000.0,198550.0
+Kasarani,studio,9750.0,9262.0
+Kasarani,one bedroom,13000.0,12350.0
+Kasarani,two bedroom,18850.0,17908.0
+Kasarani,three bedroom,27300.0,25935.0
+Kasarani,townhouse,41600.0,39520.0
+Kasarani,bungalow,49400.0,46930.0
+Kawangware,studio,6000.0,5700.0
+Kawangware,one bedroom,8000.0,7600.0
+Kawangware,two bedroom,11600.0,11020.0
+Kawangware,three bedroom,16800.0,15960.0
+Kawangware,townhouse,25600.0,24320.0
+Kawangware,bungalow,30400.0,28880.0
+Kayole Central,studio,6750.0,6412.0
+Kayole Central,one bedroom,9000.0,8550.0
+Kayole Central,two bedroom,13050.0,12398.0
+Kayole Central,three bedroom,18900.0,17955.0
+Kayole Central,townhouse,28800.0,27360.0
+Kayole Central,bungalow,34200.0,32490.0
+Kayole North,studio,6750.0,6412.0
+Kayole North,one bedroom,9000.0,8550.0
+Kayole North,two bedroom,13050.0,12398.0
+Kayole North,three bedroom,18900.0,17955.0
+Kayole North,townhouse,28800.0,27360.0
+Kayole North,bungalow,34200.0,32490.0
+Kayole South,studio,6750.0,6412.0
+Kayole South,one bedroom,9000.0,8550.0
+Kayole South,two bedroom,13050.0,12398.0
+Kayole South,three bedroom,18900.0,17955.0
+Kayole South,townhouse,28800.0,27360.0
+Kayole South,bungalow,34200.0,32490.0
+Kiamaiko,studio,4500.0,4275.0
+Kiamaiko,one bedroom,6000.0,5700.0
+Kiamaiko,two bedroom,8700.0,8265.0
+Kiamaiko,three bedroom,12600.0,11970.0
+Kiamaiko,townhouse,19200.0,18240.0
+Kiamaiko,bungalow,22800.0,21660.0
 Kileleshwa,studio,47250.0,44888.0
 Kileleshwa,one bedroom,63000.0,59850.0
 Kileleshwa,two bedroom,91350.0,86782.0
 Kileleshwa,three bedroom,132300.0,125685.0
 Kileleshwa,townhouse,201600.0,191520.0
 Kileleshwa,bungalow,239400.0,227430.0
-Kilimani,studio,48825.0,46384.0
-Kilimani,one bedroom,65100.0,61845.0
-Kilimani,two bedroom,94395.0,89675.0
-Kilimani,three bedroom,136710.0,129874.0
-Kilimani,townhouse,208320.0,197904.0
-Kilimani,bungalow,247380.0,235011.0
-Kitisuru,studio,51188.0,48628.0
-Kitisuru,one bedroom,68250.0,64838.0
-Kitisuru,two bedroom,98962.0,94014.0
-Kitisuru,three bedroom,143325.0,136159.0
-Kitisuru,townhouse,218400.0,207480.0
-Kitisuru,bungalow,259350.0,246382.0
-Komarock,studio,23250.0,22088.0
-Komarock,one bedroom,31000.0,29450.0
-Komarock,two bedroom,44950.0,42702.0
-Komarock,three bedroom,65100.0,61845.0
-Komarock,townhouse,99200.0,94240.0
-Komarock,bungalow,117800.0,111910.0
-Korogocho,studio,11400.0,10830.0
-Korogocho,one bedroom,15200.0,14440.0
-Korogocho,two bedroom,22040.0,20938.0
-Korogocho,three bedroom,31920.0,30324.0
-Korogocho,townhouse,48640.0,46208.0
-Korogocho,bungalow,57760.0,54872.0
-Kwa Njenga,studio,18000.0,17100.0
-Kwa Njenga,one bedroom,24000.0,22800.0
-Kwa Njenga,two bedroom,34800.0,33060.0
-Kwa Njenga,three bedroom,50400.0,47880.0
-Kwa Njenga,townhouse,76800.0,72960.0
-Kwa Njenga,bungalow,91200.0,86640.0
-Kwa Reuben,studio,18000.0,17100.0
-Kwa Reuben,one bedroom,24000.0,22800.0
-Kwa Reuben,two bedroom,34800.0,33060.0
-Kwa Reuben,three bedroom,50400.0,47880.0
-Kwa Reuben,townhouse,76800.0,72960.0
-Kwa Reuben,bungalow,91200.0,86640.0
-Kware,studio,17250.0,16388.0
-Kware,one bedroom,23000.0,21850.0
-Kware,two bedroom,33350.0,31682.0
-Kware,three bedroom,48300.0,45885.0
-Kware,townhouse,73600.0,69920.0
-Kware,bungalow,87400.0,83030.0
-Laini Saba,studio,10688.0,10153.0
-Laini Saba,one bedroom,14250.0,13538.0
-Laini Saba,two bedroom,20662.0,19629.0
-Laini Saba,three bedroom,29925.0,28429.0
-Laini Saba,townhouse,45600.0,43320.0
-Laini Saba,bungalow,54150.0,51442.0
-Landimawe,studio,13500.0,12825.0
-Landimawe,one bedroom,18000.0,17100.0
-Landimawe,two bedroom,26100.0,24795.0
-Landimawe,three bedroom,37800.0,35910.0
-Landimawe,townhouse,57600.0,54720.0
-Landimawe,bungalow,68400.0,64980.0
-Lindi,studio,11400.0,10830.0
-Lindi,one bedroom,15200.0,14440.0
-Lindi,two bedroom,22040.0,20938.0
-Lindi,three bedroom,31920.0,30324.0
-Lindi,townhouse,48640.0,46208.0
-Lindi,bungalow,57760.0,54872.0
-Lower Savannah,studio,18750.0,17812.0
-Lower Savannah,one bedroom,25000.0,23750.0
-Lower Savannah,two bedroom,36250.0,34438.0
-Lower Savannah,three bedroom,52500.0,49875.0
-Lower Savannah,townhouse,80000.0,76000.0
-Lower Savannah,bungalow,95000.0,90250.0
-Lucky Summer,studio,22500.0,21375.0
-Lucky Summer,one bedroom,30000.0,28500.0
-Lucky Summer,two bedroom,43500.0,41325.0
-Lucky Summer,three bedroom,63000.0,59850.0
-Lucky Summer,townhouse,96000.0,91200.0
-Lucky Summer,bungalow,114000.0,108300.0
-Mabatini,studio,14962.0,14214.0
-Mabatini,one bedroom,19950.0,18952.0
-Mabatini,two bedroom,28928.0,27481.0
-Mabatini,three bedroom,41895.0,39800.0
-Mabatini,townhouse,63840.0,60648.0
-Mabatini,bungalow,75810.0,72020.0
-Makina,studio,10688.0,10153.0
-Makina,one bedroom,14250.0,13538.0
-Makina,two bedroom,20662.0,19629.0
-Makina,three bedroom,29925.0,28429.0
-Makina,townhouse,45600.0,43320.0
-Makina,bungalow,54150.0,51442.0
-Makongeni,studio,27750.0,26362.0
-Makongeni,one bedroom,37000.0,35150.0
-Makongeni,two bedroom,53650.0,50968.0
-Makongeni,three bedroom,77700.0,73815.0
-Makongeni,townhouse,118400.0,112480.0
-Makongeni,bungalow,140600.0,133570.0
-Maringo/Hamza,studio,27750.0,26362.0
-Maringo/Hamza,one bedroom,37000.0,35150.0
-Maringo/Hamza,two bedroom,53650.0,50968.0
-Maringo/Hamza,three bedroom,77700.0,73815.0
-Maringo/Hamza,townhouse,118400.0,112480.0
-Maringo/Hamza,bungalow,140600.0,133570.0
-Mathare North,studio,14250.0,13538.0
-Mathare North,one bedroom,19000.0,18050.0
-Mathare North,two bedroom,27550.0,26172.0
-Mathare North,three bedroom,39900.0,37905.0
-Mathare North,townhouse,60800.0,57760.0
-Mathare North,bungalow,72200.0,68590.0
-Matopeni,studio,18750.0,17812.0
-Matopeni,one bedroom,25000.0,23750.0
-Matopeni,two bedroom,36250.0,34438.0
-Matopeni,three bedroom,52500.0,49875.0
-Matopeni,townhouse,80000.0,76000.0
-Matopeni,bungalow,95000.0,90250.0
-Mihango,studio,20250.0,19238.0
-Mihango,one bedroom,27000.0,25650.0
-Mihango,two bedroom,39150.0,37192.0
-Mihango,three bedroom,56700.0,53865.0
-Mihango,townhouse,86400.0,82080.0
-Mihango,bungalow,102600.0,97470.0
-Mlango Kubwa,studio,16500.0,15675.0
-Mlango Kubwa,one bedroom,22000.0,20900.0
-Mlango Kubwa,two bedroom,31900.0,30305.0
-Mlango Kubwa,three bedroom,46200.0,43890.0
-Mlango Kubwa,townhouse,70400.0,66880.0
-Mlango Kubwa,bungalow,83600.0,79420.0
-Mountain View,studio,28500.0,27075.0
-Mountain View,one bedroom,38000.0,36100.0
-Mountain View,two bedroom,55100.0,52345.0
-Mountain View,three bedroom,79800.0,75810.0
-Mountain View,townhouse,121600.0,115520.0
-Mountain View,bungalow,144400.0,137180.0
-Mowlem,studio,21000.0,19950.0
-Mowlem,one bedroom,28000.0,26600.0
-Mowlem,two bedroom,40600.0,38570.0
-Mowlem,three bedroom,58800.0,55860.0
-Mowlem,townhouse,89600.0,85120.0
-Mowlem,bungalow,106400.0,101080.0
-Mugumo-Ini,studio,15000.0,14250.0
-Mugumo-Ini,one bedroom,20000.0,19000.0
-Mugumo-Ini,two bedroom,29000.0,27550.0
-Mugumo-Ini,three bedroom,42000.0,39900.0
-Mugumo-Ini,townhouse,64000.0,60800.0
-Mugumo-Ini,bungalow,76000.0,72200.0
-Mutuini,studio,15750.0,14962.0
-Mutuini,one bedroom,21000.0,19950.0
-Mutuini,two bedroom,30450.0,28928.0
-Mutuini,three bedroom,44100.0,41895.0
-Mutuini,townhouse,67200.0,63840.0
-Mutuini,bungalow,79800.0,75810.0
-Mwiki,studio,19500.0,18525.0
-Mwiki,one bedroom,26000.0,24700.0
-Mwiki,two bedroom,37700.0,35815.0
-Mwiki,three bedroom,54600.0,51870.0
-Mwiki,townhouse,83200.0,79040.0
-Mwiki,bungalow,98800.0,93860.0
-Nairobi Central,studio,39000.0,37050.0
-Nairobi Central,one bedroom,52000.0,49400.0
-Nairobi Central,two bedroom,75400.0,71630.0
-Nairobi Central,three bedroom,109200.0,103740.0
-Nairobi Central,townhouse,166400.0,158080.0
-Nairobi Central,bungalow,197600.0,187720.0
-Nairobi South,studio,32250.0,30638.0
-Nairobi South,one bedroom,43000.0,40850.0
-Nairobi South,two bedroom,62350.0,59232.0
-Nairobi South,three bedroom,90300.0,85785.0
-Nairobi South,townhouse,137600.0,130720.0
-Nairobi South,bungalow,163400.0,155230.0
-Nairobi West,studio,33000.0,31350.0
-Nairobi West,one bedroom,44000.0,41800.0
-Nairobi West,two bedroom,63800.0,60610.0
-Nairobi West,three bedroom,92400.0,87780.0
-Nairobi West,townhouse,140800.0,133760.0
-Nairobi West,bungalow,167200.0,158840.0
-Ngando,studio,16500.0,15675.0
-Ngando,one bedroom,22000.0,20900.0
-Ngando,two bedroom,31900.0,30305.0
-Ngando,three bedroom,46200.0,43890.0
-Ngando,townhouse,70400.0,66880.0
-Ngando,bungalow,83600.0,79420.0
-Ngara,studio,32250.0,30638.0
-Ngara,one bedroom,43000.0,40850.0
-Ngara,two bedroom,62350.0,59232.0
-Ngara,three bedroom,90300.0,85785.0
-Ngara,townhouse,137600.0,130720.0
-Ngara,bungalow,163400.0,155230.0
-Ngei,studio,16500.0,15675.0
-Ngei,one bedroom,22000.0,20900.0
-Ngei,two bedroom,31900.0,30305.0
-Ngei,three bedroom,46200.0,43890.0
-Ngei,townhouse,70400.0,66880.0
-Ngei,bungalow,83600.0,79420.0
-Njiru,studio,19500.0,18525.0
-Njiru,one bedroom,26000.0,24700.0
-Njiru,two bedroom,37700.0,35815.0
-Njiru,three bedroom,54600.0,51870.0
-Njiru,townhouse,83200.0,79040.0
-Njiru,bungalow,98800.0,93860.0
-Nyayo Highrise,studio,19500.0,18525.0
-Nyayo Highrise,one bedroom,26000.0,24700.0
-Nyayo Highrise,two bedroom,37700.0,35815.0
-Nyayo Highrise,three bedroom,54600.0,51870.0
-Nyayo Highrise,townhouse,83200.0,79040.0
-Nyayo Highrise,bungalow,98800.0,93860.0
-Pangani,studio,31500.0,29925.0
-Pangani,one bedroom,42000.0,39900.0
-Pangani,two bedroom,60900.0,57855.0
-Pangani,three bedroom,88200.0,83790.0
-Pangani,townhouse,134400.0,127680.0
-Pangani,bungalow,159600.0,151620.0
-Parklands/Highridge,studio,44888.0,42643.0
-Parklands/Highridge,one bedroom,59850.0,56858.0
-Parklands/Highridge,two bedroom,86782.0,82443.0
-Parklands/Highridge,three bedroom,125685.0,119401.0
-Parklands/Highridge,townhouse,191520.0,181944.0
-Parklands/Highridge,bungalow,227430.0,216058.0
-Pipeline,studio,21750.0,20662.0
-Pipeline,one bedroom,29000.0,27550.0
-Pipeline,two bedroom,42050.0,39948.0
-Pipeline,three bedroom,60900.0,57855.0
-Pipeline,townhouse,92800.0,88160.0
-Pipeline,bungalow,110200.0,104690.0
-Pumwani,studio,21000.0,19950.0
-Pumwani,one bedroom,28000.0,26600.0
-Pumwani,two bedroom,40600.0,38570.0
-Pumwani,three bedroom,58800.0,55860.0
-Pumwani,townhouse,89600.0,85120.0
-Pumwani,bungalow,106400.0,101080.0
-Riruta,studio,18750.0,17812.0
-Riruta,one bedroom,25000.0,23750.0
-Riruta,two bedroom,36250.0,34438.0
-Riruta,three bedroom,52500.0,49875.0
-Riruta,townhouse,80000.0,76000.0
-Riruta,bungalow,95000.0,90250.0
-Roysambu,studio,26250.0,24938.0
-Roysambu,one bedroom,35000.0,33250.0
-Roysambu,two bedroom,50750.0,48212.0
-Roysambu,three bedroom,73500.0,69825.0
-Roysambu,townhouse,112000.0,106400.0
-Roysambu,bungalow,133000.0,126350.0
-Ruai,studio,19500.0,18525.0
-Ruai,one bedroom,26000.0,24700.0
-Ruai,two bedroom,37700.0,35815.0
-Ruai,three bedroom,54600.0,51870.0
-Ruai,townhouse,83200.0,79040.0
-Ruai,bungalow,98800.0,93860.0
-Sarangombe,studio,12750.0,12112.0
-Sarangombe,one bedroom,17000.0,16150.0
-Sarangombe,two bedroom,24650.0,23418.0
-Sarangombe,three bedroom,35700.0,33915.0
-Sarangombe,townhouse,54400.0,51680.0
-Sarangombe,bungalow,64600.0,61370.0
-South-C,studio,34500.0,32775.0
-South-C,one bedroom,46000.0,43700.0
-South-C,two bedroom,66700.0,63365.0
-South-C,three bedroom,96600.0,91770.0
-South-C,townhouse,147200.0,139840.0
-South-C,bungalow,174800.0,166060.0
-Umoja I,studio,24000.0,22800.0
-Umoja I,one bedroom,32000.0,30400.0
-Umoja I,two bedroom,46400.0,44080.0
-Umoja I,three bedroom,67200.0,63840.0
-Umoja I,townhouse,102400.0,97280.0
-Umoja I,bungalow,121600.0,115520.0
-Umoja II,studio,23250.0,22088.0
-Umoja II,one bedroom,31000.0,29450.0
-Umoja II,two bedroom,44950.0,42702.0
-Umoja II,three bedroom,65100.0,61845.0
-Umoja II,townhouse,99200.0,94240.0
-Umoja II,bungalow,117800.0,111910.0
-Upper Savannah,studio,19500.0,18525.0
-Upper Savannah,one bedroom,26000.0,24700.0
-Upper Savannah,two bedroom,37700.0,35815.0
-Upper Savannah,three bedroom,54600.0,51870.0
-Upper Savannah,townhouse,83200.0,79040.0
-Upper Savannah,bungalow,98800.0,93860.0
-Utalii,studio,23250.0,22088.0
-Utalii,one bedroom,31000.0,29450.0
-Utalii,two bedroom,44950.0,42702.0
-Utalii,three bedroom,65100.0,61845.0
-Utalii,townhouse,99200.0,94240.0
-Utalii,bungalow,117800.0,111910.0
-Utawala,studio,24750.0,23512.0
-Utawala,one bedroom,33000.0,31350.0
-Utawala,two bedroom,47850.0,45458.0
-Utawala,three bedroom,69300.0,65835.0
-Utawala,townhouse,105600.0,100320.0
-Utawala,bungalow,125400.0,119130.0
-Uthiru/Ruthimitu,studio,18000.0,17100.0
-Uthiru/Ruthimitu,one bedroom,24000.0,22800.0
-Uthiru/Ruthimitu,two bedroom,34800.0,33060.0
-Uthiru/Ruthimitu,three bedroom,50400.0,47880.0
-Uthiru/Ruthimitu,townhouse,76800.0,72960.0
-Uthiru/Ruthimitu,bungalow,91200.0,86640.0
-Viwandani,studio,21000.0,19950.0
-Viwandani,one bedroom,28000.0,26600.0
-Viwandani,two bedroom,40600.0,38570.0
-Viwandani,three bedroom,58800.0,55860.0
-Viwandani,townhouse,89600.0,85120.0
-Viwandani,bungalow,106400.0,101080.0
-Waithaka,studio,16500.0,15675.0
-Waithaka,one bedroom,22000.0,20900.0
-Waithaka,two bedroom,31900.0,30305.0
-Waithaka,three bedroom,46200.0,43890.0
-Waithaka,townhouse,70400.0,66880.0
-Waithaka,bungalow,83600.0,79420.0
-Woodley/Kenyatta Golf,studio,37500.0,35625.0
-Woodley/Kenyatta Golf,one bedroom,50000.0,47500.0
-Woodley/Kenyatta Golf,two bedroom,72500.0,68875.0
-Woodley/Kenyatta Golf,three bedroom,105000.0,99750.0
-Woodley/Kenyatta Golf,townhouse,160000.0,152000.0
-Woodley/Kenyatta Golf,bungalow,190000.0,180500.0
-Zimmerman,studio,24750.0,23512.0
-Zimmerman,one bedroom,33000.0,31350.0
-Zimmerman,two bedroom,47850.0,45458.0
-Zimmerman,three bedroom,69300.0,65835.0
-Zimmerman,townhouse,105600.0,100320.0
-Zimmerman,bungalow,125400.0,119130.0
-Ziwani/Kariokor,studio,28500.0,27075.0
-Ziwani/Kariokor,one bedroom,38000.0,36100.0
-Ziwani/Kariokor,two bedroom,55100.0,52345.0
-Ziwani/Kariokor,three bedroom,79800.0,75810.0
-Ziwani/Kariokor,townhouse,121600.0,115520.0
-Ziwani/Kariokor,bungalow,144400.0,137180.0
+Kilimani,studio,51188.0,48628.0
+Kilimani,one bedroom,68250.0,64838.0
+Kilimani,two bedroom,98962.0,94014.0
+Kilimani,three bedroom,143325.0,136159.0
+Kilimani,townhouse,218400.0,207480.0
+Kilimani,bungalow,259350.0,246382.0
+Kitisuru,studio,55125.0,52369.0
+Kitisuru,one bedroom,73500.0,69825.0
+Kitisuru,two bedroom,106575.0,101246.0
+Kitisuru,three bedroom,154350.0,146632.0
+Kitisuru,townhouse,235200.0,223440.0
+Kitisuru,bungalow,279300.0,265335.0
+Komarock,studio,9750.0,9262.0
+Komarock,one bedroom,13000.0,12350.0
+Komarock,two bedroom,18850.0,17908.0
+Komarock,three bedroom,27300.0,25935.0
+Komarock,townhouse,41600.0,39520.0
+Komarock,bungalow,49400.0,46930.0
+Korogocho,studio,3206.0,3046.0
+Korogocho,one bedroom,4275.0,4061.0
+Korogocho,two bedroom,6199.0,5889.0
+Korogocho,three bedroom,8978.0,8529.0
+Korogocho,townhouse,13680.0,12996.0
+Korogocho,bungalow,16245.0,15433.0
+Kwa Njenga,studio,5625.0,5344.0
+Kwa Njenga,one bedroom,7500.0,7125.0
+Kwa Njenga,two bedroom,10875.0,10331.0
+Kwa Njenga,three bedroom,15750.0,14962.0
+Kwa Njenga,townhouse,24000.0,22800.0
+Kwa Njenga,bungalow,28500.0,27075.0
+Kwa Reuben,studio,5625.0,5344.0
+Kwa Reuben,one bedroom,7500.0,7125.0
+Kwa Reuben,two bedroom,10875.0,10331.0
+Kwa Reuben,three bedroom,15750.0,14962.0
+Kwa Reuben,townhouse,24000.0,22800.0
+Kwa Reuben,bungalow,28500.0,27075.0
+Kware,studio,5250.0,4988.0
+Kware,one bedroom,7000.0,6650.0
+Kware,two bedroom,10150.0,9642.0
+Kware,three bedroom,14700.0,13965.0
+Kware,townhouse,22400.0,21280.0
+Kware,bungalow,26600.0,25270.0
+Laini Saba,studio,2850.0,2708.0
+Laini Saba,one bedroom,3800.0,3610.0
+Laini Saba,two bedroom,5510.0,5234.0
+Laini Saba,three bedroom,7980.0,7581.0
+Laini Saba,townhouse,12160.0,11552.0
+Laini Saba,bungalow,14440.0,13718.0
+Landimawe,studio,4500.0,4275.0
+Landimawe,one bedroom,6000.0,5700.0
+Landimawe,two bedroom,8700.0,8265.0
+Landimawe,three bedroom,12600.0,11970.0
+Landimawe,townhouse,19200.0,18240.0
+Landimawe,bungalow,22800.0,21660.0
+Lindi,studio,2850.0,2708.0
+Lindi,one bedroom,3800.0,3610.0
+Lindi,two bedroom,5510.0,5234.0
+Lindi,three bedroom,7980.0,7581.0
+Lindi,townhouse,12160.0,11552.0
+Lindi,bungalow,14440.0,13718.0
+Lower Savannah,studio,6375.0,6056.0
+Lower Savannah,one bedroom,8500.0,8075.0
+Lower Savannah,two bedroom,12325.0,11709.0
+Lower Savannah,three bedroom,17850.0,16958.0
+Lower Savannah,townhouse,27200.0,25840.0
+Lower Savannah,bungalow,32300.0,30685.0
+Lucky Summer,studio,8250.0,7838.0
+Lucky Summer,one bedroom,11000.0,10450.0
+Lucky Summer,two bedroom,15950.0,15152.0
+Lucky Summer,three bedroom,23100.0,21945.0
+Lucky Summer,townhouse,35200.0,33440.0
+Lucky Summer,bungalow,41800.0,39710.0
+Mabatini,studio,4631.0,4400.0
+Mabatini,one bedroom,6175.0,5866.0
+Mabatini,two bedroom,8954.0,8506.0
+Mabatini,three bedroom,12968.0,12319.0
+Mabatini,townhouse,19760.0,18772.0
+Mabatini,bungalow,23465.0,22292.0
+Makina,studio,2850.0,2708.0
+Makina,one bedroom,3800.0,3610.0
+Makina,two bedroom,5510.0,5234.0
+Makina,three bedroom,7980.0,7581.0
+Makina,townhouse,12160.0,11552.0
+Makina,bungalow,14440.0,13718.0
+Makongeni,studio,12000.0,11400.0
+Makongeni,one bedroom,16000.0,15200.0
+Makongeni,two bedroom,23200.0,22040.0
+Makongeni,three bedroom,33600.0,31920.0
+Makongeni,townhouse,51200.0,48640.0
+Makongeni,bungalow,60800.0,57760.0
+Maringo/Hamza,studio,12000.0,11400.0
+Maringo/Hamza,one bedroom,16000.0,15200.0
+Maringo/Hamza,two bedroom,23200.0,22040.0
+Maringo/Hamza,three bedroom,33600.0,31920.0
+Maringo/Hamza,townhouse,51200.0,48640.0
+Maringo/Hamza,bungalow,60800.0,57760.0
+Mathare North,studio,4125.0,3919.0
+Mathare North,one bedroom,5500.0,5225.0
+Mathare North,two bedroom,7975.0,7576.0
+Mathare North,three bedroom,11550.0,10972.0
+Mathare North,townhouse,17600.0,16720.0
+Mathare North,bungalow,20900.0,19855.0
+Matopeni,studio,6750.0,6412.0
+Matopeni,one bedroom,9000.0,8550.0
+Matopeni,two bedroom,13050.0,12398.0
+Matopeni,three bedroom,18900.0,17955.0
+Matopeni,townhouse,28800.0,27360.0
+Matopeni,bungalow,34200.0,32490.0
+Mihango,studio,7500.0,7125.0
+Mihango,one bedroom,10000.0,9500.0
+Mihango,two bedroom,14500.0,13775.0
+Mihango,three bedroom,21000.0,19950.0
+Mihango,townhouse,32000.0,30400.0
+Mihango,bungalow,38000.0,36100.0
+Mlango Kubwa,studio,5250.0,4988.0
+Mlango Kubwa,one bedroom,7000.0,6650.0
+Mlango Kubwa,two bedroom,10150.0,9642.0
+Mlango Kubwa,three bedroom,14700.0,13965.0
+Mlango Kubwa,townhouse,22400.0,21280.0
+Mlango Kubwa,bungalow,26600.0,25270.0
+Mountain View,studio,13500.0,12825.0
+Mountain View,one bedroom,18000.0,17100.0
+Mountain View,two bedroom,26100.0,24795.0
+Mountain View,three bedroom,37800.0,35910.0
+Mountain View,townhouse,57600.0,54720.0
+Mountain View,bungalow,68400.0,64980.0
+Mowlem,studio,6750.0,6412.0
+Mowlem,one bedroom,9000.0,8550.0
+Mowlem,two bedroom,13050.0,12398.0
+Mowlem,three bedroom,18900.0,17955.0
+Mowlem,townhouse,28800.0,27360.0
+Mowlem,bungalow,34200.0,32490.0
+Mugumo-Ini,studio,5625.0,5344.0
+Mugumo-Ini,one bedroom,7500.0,7125.0
+Mugumo-Ini,two bedroom,10875.0,10331.0
+Mugumo-Ini,three bedroom,15750.0,14962.0
+Mugumo-Ini,townhouse,24000.0,22800.0
+Mugumo-Ini,bungalow,28500.0,27075.0
+Mutuini,studio,6000.0,5700.0
+Mutuini,one bedroom,8000.0,7600.0
+Mutuini,two bedroom,11600.0,11020.0
+Mutuini,three bedroom,16800.0,15960.0
+Mutuini,townhouse,25600.0,24320.0
+Mutuini,bungalow,30400.0,28880.0
+Mwiki,studio,6750.0,6412.0
+Mwiki,one bedroom,9000.0,8550.0
+Mwiki,two bedroom,13050.0,12398.0
+Mwiki,three bedroom,18900.0,17955.0
+Mwiki,townhouse,28800.0,27360.0
+Mwiki,bungalow,34200.0,32490.0
+Nairobi Central,studio,26250.0,24938.0
+Nairobi Central,one bedroom,35000.0,33250.0
+Nairobi Central,two bedroom,50750.0,48212.0
+Nairobi Central,three bedroom,73500.0,69825.0
+Nairobi Central,townhouse,112000.0,106400.0
+Nairobi Central,bungalow,133000.0,126350.0
+Nairobi South,studio,15000.0,14250.0
+Nairobi South,one bedroom,20000.0,19000.0
+Nairobi South,two bedroom,29000.0,27550.0
+Nairobi South,three bedroom,42000.0,39900.0
+Nairobi South,townhouse,64000.0,60800.0
+Nairobi South,bungalow,76000.0,72200.0
+Nairobi West,studio,16500.0,15675.0
+Nairobi West,one bedroom,22000.0,20900.0
+Nairobi West,two bedroom,31900.0,30305.0
+Nairobi West,three bedroom,46200.0,43890.0
+Nairobi West,townhouse,70400.0,66880.0
+Nairobi West,bungalow,83600.0,79420.0
+Ngando,studio,6750.0,6412.0
+Ngando,one bedroom,9000.0,8550.0
+Ngando,two bedroom,13050.0,12398.0
+Ngando,three bedroom,18900.0,17955.0
+Ngando,townhouse,28800.0,27360.0
+Ngando,bungalow,34200.0,32490.0
+Ngara,studio,16500.0,15675.0
+Ngara,one bedroom,22000.0,20900.0
+Ngara,two bedroom,31900.0,30305.0
+Ngara,three bedroom,46200.0,43890.0
+Ngara,townhouse,70400.0,66880.0
+Ngara,bungalow,83600.0,79420.0
+Ngei,studio,5250.0,4988.0
+Ngei,one bedroom,7000.0,6650.0
+Ngei,two bedroom,10150.0,9642.0
+Ngei,three bedroom,14700.0,13965.0
+Ngei,townhouse,22400.0,21280.0
+Ngei,bungalow,26600.0,25270.0
+Njiru,studio,6750.0,6412.0
+Njiru,one bedroom,9000.0,8550.0
+Njiru,two bedroom,13050.0,12398.0
+Njiru,three bedroom,18900.0,17955.0
+Njiru,townhouse,28800.0,27360.0
+Njiru,bungalow,34200.0,32490.0
+Nyayo Highrise,studio,7500.0,7125.0
+Nyayo Highrise,one bedroom,10000.0,9500.0
+Nyayo Highrise,two bedroom,14500.0,13775.0
+Nyayo Highrise,three bedroom,21000.0,19950.0
+Nyayo Highrise,townhouse,32000.0,30400.0
+Nyayo Highrise,bungalow,38000.0,36100.0
+Pangani,studio,15000.0,14250.0
+Pangani,one bedroom,20000.0,19000.0
+Pangani,two bedroom,29000.0,27550.0
+Pangani,three bedroom,42000.0,39900.0
+Pangani,townhouse,64000.0,60800.0
+Pangani,bungalow,76000.0,72200.0
+Parklands/Highridge,studio,43312.0,41147.0
+Parklands/Highridge,one bedroom,57750.0,54862.0
+Parklands/Highridge,two bedroom,83738.0,79551.0
+Parklands/Highridge,three bedroom,121275.0,115211.0
+Parklands/Highridge,townhouse,184800.0,175560.0
+Parklands/Highridge,bungalow,219450.0,208478.0
+Pipeline,studio,8250.0,7838.0
+Pipeline,one bedroom,11000.0,10450.0
+Pipeline,two bedroom,15950.0,15152.0
+Pipeline,three bedroom,23100.0,21945.0
+Pipeline,townhouse,35200.0,33440.0
+Pipeline,bungalow,41800.0,39710.0
+Pumwani,studio,7500.0,7125.0
+Pumwani,one bedroom,10000.0,9500.0
+Pumwani,two bedroom,14500.0,13775.0
+Pumwani,three bedroom,21000.0,19950.0
+Pumwani,townhouse,32000.0,30400.0
+Pumwani,bungalow,38000.0,36100.0
+Riruta,studio,8250.0,7838.0
+Riruta,one bedroom,11000.0,10450.0
+Riruta,two bedroom,15950.0,15152.0
+Riruta,three bedroom,23100.0,21945.0
+Riruta,townhouse,35200.0,33440.0
+Riruta,bungalow,41800.0,39710.0
+Roysambu,studio,11250.0,10688.0
+Roysambu,one bedroom,15000.0,14250.0
+Roysambu,two bedroom,21750.0,20662.0
+Roysambu,three bedroom,31500.0,29925.0
+Roysambu,townhouse,48000.0,45600.0
+Roysambu,bungalow,57000.0,54150.0
+Ruai,studio,6750.0,6412.0
+Ruai,one bedroom,9000.0,8550.0
+Ruai,two bedroom,13050.0,12398.0
+Ruai,three bedroom,18900.0,17955.0
+Ruai,townhouse,28800.0,27360.0
+Ruai,bungalow,34200.0,32490.0
+Sarangombe,studio,3375.0,3206.0
+Sarangombe,one bedroom,4500.0,4275.0
+Sarangombe,two bedroom,6525.0,6199.0
+Sarangombe,three bedroom,9450.0,8978.0
+Sarangombe,townhouse,14400.0,13680.0
+Sarangombe,bungalow,17100.0,16245.0
+South-C,studio,18750.0,17812.0
+South-C,one bedroom,25000.0,23750.0
+South-C,two bedroom,36250.0,34438.0
+South-C,three bedroom,52500.0,49875.0
+South-C,townhouse,80000.0,76000.0
+South-C,bungalow,95000.0,90250.0
+Umoja I,studio,10500.0,9975.0
+Umoja I,one bedroom,14000.0,13300.0
+Umoja I,two bedroom,20300.0,19285.0
+Umoja I,three bedroom,29400.0,27930.0
+Umoja I,townhouse,44800.0,42560.0
+Umoja I,bungalow,53200.0,50540.0
+Umoja II,studio,9750.0,9262.0
+Umoja II,one bedroom,13000.0,12350.0
+Umoja II,two bedroom,18850.0,17908.0
+Umoja II,three bedroom,27300.0,25935.0
+Umoja II,townhouse,41600.0,39520.0
+Umoja II,bungalow,49400.0,46930.0
+Upper Savannah,studio,6750.0,6412.0
+Upper Savannah,one bedroom,9000.0,8550.0
+Upper Savannah,two bedroom,13050.0,12398.0
+Upper Savannah,three bedroom,18900.0,17955.0
+Upper Savannah,townhouse,28800.0,27360.0
+Upper Savannah,bungalow,34200.0,32490.0
+Utalii,studio,10500.0,9975.0
+Utalii,one bedroom,14000.0,13300.0
+Utalii,two bedroom,20300.0,19285.0
+Utalii,three bedroom,29400.0,27930.0
+Utalii,townhouse,44800.0,42560.0
+Utalii,bungalow,53200.0,50540.0
+Utawala,studio,9750.0,9262.0
+Utawala,one bedroom,13000.0,12350.0
+Utawala,two bedroom,18850.0,17908.0
+Utawala,three bedroom,27300.0,25935.0
+Utawala,townhouse,41600.0,39520.0
+Utawala,bungalow,49400.0,46930.0
+Uthiru/Ruthimitu,studio,7500.0,7125.0
+Uthiru/Ruthimitu,one bedroom,10000.0,9500.0
+Uthiru/Ruthimitu,two bedroom,14500.0,13775.0
+Uthiru/Ruthimitu,three bedroom,21000.0,19950.0
+Uthiru/Ruthimitu,townhouse,32000.0,30400.0
+Uthiru/Ruthimitu,bungalow,38000.0,36100.0
+Viwandani,studio,7500.0,7125.0
+Viwandani,one bedroom,10000.0,9500.0
+Viwandani,two bedroom,14500.0,13775.0
+Viwandani,three bedroom,21000.0,19950.0
+Viwandani,townhouse,32000.0,30400.0
+Viwandani,bungalow,38000.0,36100.0
+Waithaka,studio,6750.0,6412.0
+Waithaka,one bedroom,9000.0,8550.0
+Waithaka,two bedroom,13050.0,12398.0
+Waithaka,three bedroom,18900.0,17955.0
+Waithaka,townhouse,28800.0,27360.0
+Waithaka,bungalow,34200.0,32490.0
+Woodley/Kenyatta Golf,studio,30000.0,28500.0
+Woodley/Kenyatta Golf,one bedroom,40000.0,38000.0
+Woodley/Kenyatta Golf,two bedroom,58000.0,55100.0
+Woodley/Kenyatta Golf,three bedroom,84000.0,79800.0
+Woodley/Kenyatta Golf,townhouse,128000.0,121600.0
+Woodley/Kenyatta Golf,bungalow,152000.0,144400.0
+Zimmerman,studio,9000.0,8550.0
+Zimmerman,one bedroom,12000.0,11400.0
+Zimmerman,two bedroom,17400.0,16530.0
+Zimmerman,three bedroom,25200.0,23940.0
+Zimmerman,townhouse,38400.0,36480.0
+Zimmerman,bungalow,45600.0,43320.0
+Ziwani/Kariokor,studio,10500.0,9975.0
+Ziwani/Kariokor,one bedroom,14000.0,13300.0
+Ziwani/Kariokor,two bedroom,20300.0,19285.0
+Ziwani/Kariokor,three bedroom,29400.0,27930.0
+Ziwani/Kariokor,townhouse,44800.0,42560.0
+Ziwani/Kariokor,bungalow,53200.0,50540.0
