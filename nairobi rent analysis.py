@@ -527,7 +527,7 @@ def create_interactive_typology_map(geo_gdf: gpd.GeoDataFrame, ward_rent_df: pd.
     minx, miny, maxx, maxy = geo_gdf.total_bounds
     center_lat = (miny + maxy) / 2
     center_lon = (minx + maxx) / 2
-    fmap = folium.Map(location=[center_lat, center_lon], zoom_start=11, tiles="CartoDB positron")
+    fmap = folium.Map(location=[center_lat, center_lon], zoom_start=11, tiles="OpenStreetMap")
 
     for idx, typology in enumerate(typology_multipliers.keys()):
         layer_data = ward_rent_df[ward_rent_df["typology"] == typology]
